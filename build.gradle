@@ -13,8 +13,8 @@ repositories {
 }
 
 dependencies {
-    // https://mvnrepository.com/artifact/cglib/cglib
-    implementation group: 'cglib', name: 'cglib', version: '2.2.2'
+
+    implementation 'cglib:cglib:3.3.0'
 
     implementation 'org.springframework.boot:spring-boot-starter'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
